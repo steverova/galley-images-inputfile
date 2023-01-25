@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className="App container-fluid">
-        <div className="col-md-7 mx-auto mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-10 col-xl-8 mx-auto mt-5">
           <div className="chooser_container">
             <input type="file" onChange={onFileChange} />
             <button className="btn" onClick={onSubmit}>
@@ -76,7 +76,7 @@ function App() {
           <i class="fa-solid fa-compress"></i>
         </button>
 
-        <div className="col-md-7 mx-auto">
+        <div className=" col-md-7 mx-auto">
           <div className="modal_image_container">
             <img src={modalData} alt="gallery" />
           </div>
