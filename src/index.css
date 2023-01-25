@@ -83,20 +83,7 @@ input[type="file"]::file-selector-button:hover {
   object-fit: cover;
 }
 
-.modal_image_container {
-  background-color: red;
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  margin: 10px 5px 10px 5px;
-}
 
-.modal_image_container img {
-  width: 100%;
-  height: 40%;
-  border-radius: 6px;
-  object-fit: cover;
-}
 
 /* .right-aligned-button {
   align-self: flex-end;
@@ -148,9 +135,24 @@ input[type="file"]::file-selector-button:hover {
   width: 100wh;
   background-color: #e2e2e2;
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
   top: 0;
+}
+
+.modal_image_container {
+  background-color: rgb(211, 211, 211);
+  position: absolute;
+  width: 100%;
+  height: 48em;
+  border-radius: 6px;
+  top: 0;
+}
+
+.modal_image_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: contain;
 }

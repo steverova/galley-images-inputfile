@@ -72,7 +72,7 @@ function App() {
         </div>
       </div>
       <div hidden={modalState} className="gallery_modal">
-        <button className="btn-card m-5" onClick={() => closeModal()}>
+        <button className="btn-card m-3" onClick={() => closeModal()}>
           <i class="fa-solid fa-compress"></i>
         </button>
 
